@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+
+
+}
+
+.wrap {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+
+}
+
+.logo_icon {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10px;
+    /* left: 10px; */
+}
+
+.logo_icon .icon {
+    top: 20px;
+    left: 40px;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.logo_icon .logo img {
+
+
+    width: 120px;
+    height: 30px;
+
+}
+
+.searchbar {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search {
+    position: relative;
+    top: 0;
+    left: -50px;
+
+}
+
+.search input {
+    width: 600px;
+    height: 50px;
+    border-radius: 50px;
+    justify-content: center;
+
+
+}
+
+.searchbutton {
+    position: relative;
+    left: -50px;
+    width: 70px;
+    height: 50px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    cursor: pointer;
+
+}
+
+.mike {
+    position: relative;
+
+    left: -70px;
+    border: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(168, 165, 165);
+
+}
+
+
+.mikebutton {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.mike:hover .mikebutton {
+    background-color: #D9D9D9;
+    color: white;
+    position: relative;
+
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login .create {
+    position: relative;
+
+    left: -100px;
+    width: 20px;
+
+}
+
+.create .createbutton {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.create:hover .createbutton {
+    background-color: #E5E5E5;
+
+}
+
+.ringbell {
+    position: relative;
+
+    left: -70px;
+    width: 20px;
+}
+
+.notif {
+    font-size: 0.8rem;
+    position: absolute;
+    top: 6px;
+    right: -20px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+
+}
+
+.ringbell_button {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.ringbell:hover .ringbell_button {
+    background-color: #E5E5E5;
+}
+
+.user {
+    position: relative;
+
+    left: -20px;
+    width: 20px;
+}
+
+.user .user_button {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(238, 103, 103);
+    cursor: pointer;
+
+}
+
+section {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    right: -10px;
+}
+
+.aside {
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width: 15%;
+    
+    overflow-y: scroll;
+}
+
+.lbutton{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: none;
+    
+}
+.aside .item .lbutton:hover{
+    background-color:rgb(168, 165, 165) ;
+
+}
+
+.main {
+    width: 82%;
+    position: absolute;
+    top: 0px;
+    left: 18%;
+    right: 0;
+    
+}
+
+.main .upper {
+
+    overflow-x: scroll;
+}
+
+.container_button {
+    width: 80rem;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.mbutton {
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.lower {
+    margin: 10px;
+}
+
+.videocontent {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+
+}
+.box{
+    position: relative;
+}
+
+.box .image img {
+    width: 310px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.thmbnail {
+    display: flex;
+    justify-content: space-around;
+}
+.timing{
+    position: absolute;
+    color: white;
+    left:260px;
+    bottom:125px;
+}
