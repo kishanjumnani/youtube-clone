@@ -3,31 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     width: 100%;
   font-family:  'Roboto', sans-serif;
    background:#f5f7fa ;
-   font-size: 14px;
-  
+   font-size: 14px; 
 }
-
-
-
 .wrap {
-    margin-left: 0;
+    margin-left: 10px;
     margin-right: 20px;
     margin-top: 10px;
-
 }
-
 header {
     display: flex;
     justify-content: space-between;
     height: 20%;
-
 }
-
 .logo_icon {
     display: flex;
     justify-content: space-evenly;
@@ -35,7 +26,6 @@ header {
     top: 10px;
     /* left: 10px; */
 }
-
 .logo_icon .icon {
     top: 20px;
     left: 40px;
@@ -48,36 +38,25 @@ header {
 }
 
 .logo_icon .logo img {
-
-
     width: 120px;
     height: 30px;
-
 }
-
 .searchbar {
-
     display: flex;
     justify-content: space-evenly;
 }
-
 .search {
     position: relative;
     top: 0;
     left: -50px;
-
 }
-
 .search input {
     width: 600px;
     height: 50px;
     border-radius: 50px;
     justify-content: center;
     background-color: #f5f7fa;
-
-
 }
-
 .searchbutton {
     position: relative;
     left: -50px;
@@ -103,8 +82,6 @@ header {
     background-color: rgb(168, 165, 165);
 
 }
-
-
 .mikebutton {
     border: none;
     width: 50px;
@@ -112,19 +89,16 @@ header {
     border-radius: 50%;
 
 }
-
 .mike:hover .mikebutton {
     background-color: #D9D9D9;
     color: white;
     position: relative;
 
 }
-
 .login {
     display: flex;
     justify-content: space-between;
 }
-
 .login .create {
     position: relative;
 
@@ -132,7 +106,6 @@ header {
     width: 20px;
 
 }
-
 .create .createbutton {
     border: none;
     width: 50px;
@@ -143,19 +116,15 @@ header {
    background-color:#f5f7fa;
 
 }
-
 .create:hover .createbutton {
     background-color: #E5E5E5;
-
 }
-
 .ringbell {
     position: relative;
 
     left: -80px;
     width: 20px;
 }
-
 .notif {
     font-size: 0.8rem;
     position: absolute;
@@ -166,7 +135,6 @@ header {
     border-radius: 50%;
 
 }
-
 .ringbell_button {
     border: none;
     width: 50px;
@@ -175,18 +143,14 @@ header {
     background-color:#f5f7fa;
     cursor: pointer;
 }
-
 .ringbell:hover .ringbell_button {
     background-color: #E5E5E5;
 }
-
 .user {
     position: relative;
-
     left: -20px;
     width: 20px;
 }
-
 .user .user_button {
     border: none;
     width: 50px;
@@ -194,11 +158,8 @@ header {
     border-radius: 50%;
     background-color: rgb(238, 103, 103);
     cursor: pointer;
-
 }
-
 section {
-
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -206,10 +167,8 @@ section {
     top: 10px;
     left: 10px;
     right: -10px;
-    height: 100vh;
-    
+    height: 100vh;   
 }
-
 .aside {
     position: absolute;
     height:100vh;
@@ -217,13 +176,8 @@ section {
     left: 0;
     width: 15%;
     margin-bottom: 0;
-    
     overflow-y: scroll;
-
 }
-
-
-
 .lbutton{
     width: 100%;
     height: 40px;
@@ -242,31 +196,23 @@ section {
     background-color:rgb(168, 165, 165) ;
 
 }
-
 .main {
     top:0;
     width: 82%;
     position: absolute;
     top: 0px;
     left: 18%;
-    right: 0;
-    
-    
+    right: 0;   
 }
 .upper{
     margin: 10px;
     overflow-x:hidden;   
 }
-
-.container_button {
-
-    
+.container_button {   
     width: 100vw;
-
     display: flex;
     gap:20px;    
 }
-
 .mbutton {
     padding: 10px 20px 10px 20px;
     height: 30px;
@@ -275,7 +221,6 @@ section {
     padding: 5px;
     border-radius: 5px;
     border: none;
-    
     cursor: pointer;
     position: relative;
     z-index: 1;
@@ -283,9 +228,7 @@ section {
 #blackbutton{
     background-color: black;
     color:white;
-
 }
-
 .mbutton:hover{
     background-color: #E5E5E5;
 }
@@ -298,14 +241,8 @@ section {
     z-index: 1;
    background-color: black;
    color: white;
-
 }
-
 .mbutton:hover + .popup{   
-   
-  
-  
-
     visibility: visible;
 }
 .mbutton:hover #arrow{
@@ -317,8 +254,6 @@ section {
     background-color: gray;
     color: white;
     z-index: 2;
-
-
 }
 
 .lower {
@@ -336,10 +271,8 @@ section {
 }
 .box{
     position: relative;
-    z-index: 1;
-    
+    z-index: 1;   
 }
-
 .box .image img {
     width: 310px;
     height: 170px;
@@ -354,7 +287,6 @@ img:hover{
     z-index: 2;
     background-color: #D9D9D9;
 }
-
 .thmbnail {
     display: flex;
     justify-content: space-around;
@@ -377,7 +309,5 @@ img:hover{
     background-color: rgb(85, 68, 68);
     padding: 5px;
     border-radius: 10px;
-    z-index: 2;
-    
+    z-index: 2;   
 }
-
