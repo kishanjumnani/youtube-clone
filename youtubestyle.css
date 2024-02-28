@@ -244,6 +244,7 @@ section {
 }
 
 .main {
+    top:0;
     width: 82%;
     position: absolute;
     top: 0px;
@@ -254,8 +255,7 @@ section {
 }
 .upper{
     margin: 10px;
-    overflow-x:hidden;
-    
+    overflow-x:hidden;   
 }
 
 .container_button {
@@ -302,10 +302,9 @@ section {
 }
 
 .mbutton:hover + .popup{   
-    position: absolute;
-    top: 10px;
-    left: -10px;
-    z-index: 3;
+   
+  
+  
 
     visibility: visible;
 }
@@ -323,7 +322,8 @@ section {
 }
 
 .lower {
-    margin: 10px;
+    position: relative;
+    top: 5px;
 }
 
 .videocontent {
