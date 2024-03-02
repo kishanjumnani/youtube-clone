@@ -16,20 +16,20 @@ body {
 }
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap:  200px;
     height: 20%;
+    align-items: center;
+    position: relative;
 }
 .logo_icon {
     display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    top: 10px;
-    /* left: 10px; */
+    justify-content: flex-start;
+    gap:20px;
+  
 }
 .logo_icon .icon {
-    top: 20px;
-    left: 40px;
-    width: 40px;
+    
     height: 30px;
     cursor: pointer;
 }
@@ -38,29 +38,68 @@ header {
 }
 
 .logo_icon .logo img {
+
+    justify-content: flex-start;
+    gap:150px;
+    align-items: center;
+    height: 20%;
+    position: relative;
+    width: 100%;
+    
+}
+.logo_icon {
+    
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    gap:40px;
+    
+       
+}
+.logo_icon .icon {
+    position: relative;
+    top:10px;
+    left: 10px;
+   height: 30px;
+    cursor: pointer;
+}
+.icon:hover .i{
+
+    background-color:#D9D9D9;
+}
+
+.logo_icon .logo img{
+
     width: 120px;
     height: 30px;
 }
 .searchbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    gap:10px;
 }
 .search {
-    position: relative;
-    top: 0;
-    left: -50px;
+    display: flex;
+
+    border: none;
+    outline: none;
+    padding: 5px;
+
 }
+    
+
 .search input {
     width: 600px;
     height: 50px;
+
     border-radius: 50px;
     justify-content: center;
     background-color: #f5f7fa;
 }
 .searchbutton {
     position: relative;
-    left: -50px;
-    width: 70px;
+    left: -40px;
+    width: 50px;
     height: 50px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -73,8 +112,9 @@ header {
 
 .mike {
     position: relative;
+    top:5px;
 
-    left: -70px;
+    align-items: center;
     border: 50%;
     width: 50px;
     height: 50px;
@@ -97,7 +137,11 @@ header {
 }
 .login {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;   
+    position: absolute;
+    
+    right: 0px;
+
 }
 .login .create {
     position: relative;
@@ -168,7 +212,9 @@ section {
     left: 10px;
     right: -10px;
     height: 100vh; 
-    overflow-y: scroll;  
+
+ 
+
 }
 .aside {
     position: absolute;
@@ -178,6 +224,8 @@ section {
     width: 15%;
     margin-bottom: 0;
     overflow-y: scroll;
+
+
 }
 .lbutton{
     width: 100%;
@@ -300,16 +348,38 @@ img:hover{
     cursor: pointer;
 }
 .video_name{
+    width: 95%;
     display: flex;
     gap:5px;
+}
+.video_name h3{
+    width: 100%;
+    text-align: start;
+    
 }
 .timing{
     position: absolute;
     color: white;
     left:260px;
     bottom:125px;
-    background-color: rgb(85, 68, 68);
+
+    background-color: black;
     padding: 5px;
     border-radius: 10px;
     z-index: 2;   
 }
+body{
+    overflow-y: hidden;
+}
+.lower{
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
